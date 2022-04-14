@@ -9,7 +9,7 @@ spec:
   type: NodePort
   ports:
     - port: 8089
-      nodePort: 8082 #service对外开放端口
+      nodePort: 30001 #service对外开放端口
   selector:
     app: dockertest
 ---
