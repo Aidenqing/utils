@@ -31,7 +31,7 @@ spec:
     spec:
       containers: #docker容器的配置
         - name: dockertest
-          image: registry.cn-beijing.aliyuncs.com/aiden-test/adien-test:latest # pull镜像的地址 ip:prot/dir/images:tag
+          image: registry.cn-beijing.aliyuncs.com/aiden-test/aiden-test:latest # pull镜像的地址 ip:prot/dir/images:tag
           imagePullPolicy: Always #pull镜像时机，
           ports:
             - containerPort: 8080 #容器对外开放端口
